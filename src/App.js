@@ -10,7 +10,7 @@ const App = () => {
             userName = ""
             userSecret = ""
         />
-    )
+    );
 }
 
 export default App;
