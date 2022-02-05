@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const loginForm = () => {
+const LoginForm = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -46,4 +46,4 @@ const loginForm = () => {
     )
 }
 
-export default loginForm;
+export default LoginForm;
